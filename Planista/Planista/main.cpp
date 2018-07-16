@@ -9,6 +9,8 @@ struct Wezel
 
 class Lista {
 public:
+	Lista();				//domyœlny konstruktor
+	virtual ~Lista();
 
 private:
 	Wezel *head;
